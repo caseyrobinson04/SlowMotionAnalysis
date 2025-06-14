@@ -1,5 +1,4 @@
 #load data 
-setwd("C:/Users/casey/OneDrive/Desktop/Data Analysis Learning")
 originalData <- read.csv("Original_Conditions_Only.csv", header = TRUE)
 
 #REMEMBER! PROPORTION CORRECT FOLLOWS A BINOMIAL DISTRIBUTION

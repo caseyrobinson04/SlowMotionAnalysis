@@ -77,6 +77,6 @@ intentionData$fast_prop <- rowMeans(intentionData[fast_cols], na.rm = TRUE)
 
 #t-tests
 
-t.test(intentionData$slow_prop, intentionData$reg_prop, paired = TRUE)  # Slow vs. Regular
-t.test(intentionData$reg_prop, intentionData$fast_prop, paired = TRUE)  # Regular vs. Fast
+#t.test(intentionData$slow_prop, intentionData$reg_prop, paired = TRUE)  # Slow vs. Regular
+#t.test(intentionData$reg_prop, intentionData$fast_prop, paired = TRUE)  # Regular vs. Fast
 
