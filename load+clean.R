@@ -1,5 +1,4 @@
 #access data set and remove unused rows/columns
-setwd("C:/Users/casey/OneDrive/Desktop/Data Analysis Learning")
 data <- read.csv("Test.Analysis.csv", header = TRUE, skip = 0)
 data <- data[-1, ]
 data <- data[, -c(1:19)]

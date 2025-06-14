@@ -1,5 +1,3 @@
-#load data 
-setwd("C:/Users/casey/OneDrive/Desktop/Data Analysis Learning")
 speedChangeData <- read.csv("SpeedChange_Only.csv", header = TRUE)
 
 confidenceData <- speedChangeData
